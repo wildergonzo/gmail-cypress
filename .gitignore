@@ -1,0 +1,6 @@
+node_modules
+cypress/fixtures
+cypress/integration/example_spec.js
+cypress/plugins
+cypress/support
+cypress.json

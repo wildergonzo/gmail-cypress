@@ -1,0 +1,26 @@
+{
+  "name": "gmail-cypress",
+  "version": "1.0.0",
+  "description": "cypress test example",
+  "main": "app.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wildergonzo/gmail-cypress.git"
+  },
+  "keywords": [
+    "e2e",
+    "cypress"
+  ],
+  "author": "wilder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wildergonzo/gmail-cypress/issues"
+  },
+  "homepage": "https://github.com/wildergonzo/gmail-cypress#readme",
+  "devDependencies": {
+    "cypress": "^2.1.0"
+  }
+}
