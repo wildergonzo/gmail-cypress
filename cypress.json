@@ -1,4 +1,6 @@
 {
 	"chromeWebSecurity": false,
-	"baseUrl": "https://accounts.google.com"
+	"baseUrl": "https://accounts.google.com",
+	"video": false,
+	"defaultCommandTimeout": 10000
 }
