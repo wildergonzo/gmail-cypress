@@ -1,0 +1,15 @@
+{
+  "name": "gmail-cypress",
+  "version": "1.0.0",
+  "description": "cypress testautomation training",
+  "main": "index.js",
+  "repository": "git@github.com:wildergonzo/gmail-cypress.git",
+  "author": "Wilder Gonzales <wilder.gonzales@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^3.3.2"
+  },
+  "scripts": {
+  	"cypress": "cypress open"
+  }
+}
