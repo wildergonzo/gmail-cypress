@@ -10,6 +10,9 @@ describe('gmail sign in', function() {
     cy.get('.RveJvd').click();
 
     cy.wait(1000);
+
+    cy.get('input[name="password"]').type(user.password);
+    cy.get('#passwordNext').click();
     
   });
 
