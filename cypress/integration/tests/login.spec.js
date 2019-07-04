@@ -4,7 +4,9 @@ describe('gmail sign in', function() {
 
   it('should login successfully ', function() {
 
-    cy.visit('https://mail.google.com/mail');
+    let gmailUrl = 'https://mail.google.com/mail';
+
+    cy.visit(gmailUrl);
 
     cy.get('#identifierId').type(user.email);
     cy.get('.RveJvd').click();
@@ -13,6 +15,8 @@ describe('gmail sign in', function() {
 
     cy.get('input[name="password"]').type(user.password);
     cy.get('#passwordNext').click();
+
+    cy.url().should('include', gmailUrl);
     
   });
 
